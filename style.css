@@ -1,0 +1,46 @@
+html, body, p {
+    margin: 0;
+
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-container {
+    background-color: rgb(80,205,114);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.weather-list-container {
+    background-color: rgb(231,231,231);
+    width: 300px;
+}
+
+.day-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#loc {
+    font-family: "FontAwesome";
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: "FontAwesome";
+    src : url("fonts/fa-regular-400.eot");
+    src : url("fonts/fa-regular-400.eot") format("embedded-opentype"),
+    url("fonts/fa-regular-400.woff2") format("woff2"),
+    url("fonts/fa-regular-400.woff") format("woff"),
+    url("fonts/fa-regular-400.ttf") format("truetype"),
+    url("fonts/fa-regular-400.svg") format("svg");
+}
